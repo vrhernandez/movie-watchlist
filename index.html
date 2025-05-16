@@ -5,17 +5,29 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Find your film</h1>
-        <a href="/watchlist.html">My Watchlist</a>
+        <header>
+            <h1>Find your film</h1>
+            <a href="/watchlist.html">My Watchlist</a>
+            <form id="search-form">
+                <input id="title" type="search" placeholder="Enter film title">
+                <button>Search</button>
+            </form>
+        </header>
+        <main>
 
-        <form id="search-form">
-            <input id="title" type="search" placeholder="Enter film title">
-            <button>Search</button>
-        </form>
+            <section id="search-results">
+                <div class="film">
+                    <img src="/images/image 33.png">
+                    <h2 class="film-title">Blade Runner</h2>
+                    <p class="film-score">8.1</p>
+                    <p class="film-runtime">116 min</p>
+                    <p class="film-genre">Drama, Mystery, Sci-Fi</p>
+                    <button class="film-add-btn">+ Watchlist</button>
+                    <p class="film-plot">A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.</p>
+                </div>
+            </section>
 
-        <section id="search-results">
-
-        </section>
+        </main>
 
         <script src="index.js"></script>
     </body>

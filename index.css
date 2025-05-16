@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black url("/images/header-background.png");
+    background-size: cover;
+    color: #fff;
+}
+
+header a {
+    color: inherit;
+}
